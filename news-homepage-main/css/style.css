@@ -15,6 +15,11 @@ nav{
 nav h1{
     font-size: 60px;
 }
+nav i{
+    font-size: 30px;
+    cursor: pointer;
+    display: none !important;
+}
 nav ul{
     display: flex;
     list-style: none;
@@ -104,4 +109,17 @@ transition: 500ms;
 }
 .content-a h1{
     color: orangered;
+}
+@media (max-width:1229px){
+    .container-a{
+        transform: scale(0.8);
+    }
+}
+@media (max-width:1024px){
+nav ul{
+    display: none;
+}
+nav i{
+    display: block !important;
+}
 }
