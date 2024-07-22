@@ -4,7 +4,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    padding: 50px;
+    padding: 30px 50px;
 }
 nav{
     display: flex;
@@ -57,9 +57,15 @@ color: white;
 }
 .section-b h1{
     margin-bottom: 30px;
+    color: orange;
 }
 .section-b-text-a h3{
     margin-bottom: 7px;
+    cursor: pointer;
+}
+.section-b-text-a h3:hover{
+color: orange;
+transition: 500ms;
 }
 .section-b-text-a p{
     margin-bottom: 20px;
@@ -72,10 +78,30 @@ color: white;
     font-weight: 900;
 }
 .contents p{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    font-size: 20px;
 }
 .contents button{
-    padding: 10px 30px;
+    padding: 15px 35px;
     background-color: rgb(2, 2, 49);
     color: white;
+    border: none;
+    cursor: pointer;
+}
+.content-a img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover; 
+    margin-right: 20px;
+}
+.content-a h4{
+    cursor: pointer;
+    font-size:19px;
+}
+.content-a h4:hover{
+    color: orangered;
+    transition: 500ms;
+}
+.content-a h1{
+    color: orangered;
 }
